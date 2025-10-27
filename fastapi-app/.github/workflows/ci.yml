@@ -55,6 +55,7 @@ jobs:
     defaults:
       run:
         working-directory: fastapi-app
+    if: ${{ secrets.DOCKERHUB_USERNAME != '' && secrets.DOCKERHUB_TOKEN != '' }}
 
     steps:
       - name: Checkout repository
@@ -80,6 +81,7 @@ jobs:
   sonar-analysis:
     runs-on: ubuntu-latest
     needs: build-test-lint
+    if: ${{ secrets.SONAR_TOKEN != '' && secrets.SONAR_HOST_URL != '' }}
 
     steps:
       - name: Checkout repository
