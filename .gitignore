@@ -1,0 +1,26 @@
+# Python caches and environments
+__pycache__/
+*.py[cod]
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# Virtual environment
+.venv/
+venv/
+env/
+ENV/
+
+# Coverage
+.coverage
+.coverage.*
+coverage.xml
+htmlcov/
+
+# pytest cache
+.pytest_cache/
+
+# Editor directories
+.vscode/
+.idea/
