@@ -4,6 +4,7 @@ Some CI environments or unusual workspace paths can cause the top-level
 package (`app`) not to be importable by pytest. This file inserts the
 project root into sys.path before tests are imported.
 """
+
 from pathlib import Path
 import sys
 

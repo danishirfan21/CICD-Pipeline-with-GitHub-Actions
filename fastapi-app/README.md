@@ -3,7 +3,7 @@
 [//]: # (Replace OWNER and REPO below with your GitHub owner and repository name)
 
 <!-- Badges -->
-[![CI](https://github.com/OWNER/REPO/actions/workflows/ci.yml/badge.svg)](https://github.com/OWNER/REPO/actions/workflows/ci.yml)
+[![CI](https://github.com/danishirfan21/CICD-Pipeline-with-GitHub-Actions/actions/workflows/ci.yml/badge.svg)](https://github.com/danishirfan21/CICD-Pipeline-with-GitHub-Actions/actions/workflows/ci.yml)
 [![Python](https://img.shields.io/badge/python-3.11%2B-blue)](https://www.python.org/)
 [![License](https://img.shields.io/badge/license-MIT-green)](LICENSE)
 
